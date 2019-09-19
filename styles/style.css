@@ -2,4 +2,52 @@
     width: 100%;
     height: 100px;
     background: orange;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    background: red;
+    position: relative;
+
+}
+.logo > img {
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.navigation{
+    width: 50%;
+    background: blue;
+    display: flex;
+}
+.navigation > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.navigation > ul> li{
+list-style-type: none;
+}
+.navigation > ul> li >a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.search{
+    width:25%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /*  justify-content: space-around;*/
+}
+
+.search > img {
+    width: 10%;
 }
