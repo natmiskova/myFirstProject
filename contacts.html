@@ -8,16 +8,48 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-   <div class ="wrapper">
-       <header class="header">
-           <nav>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="contacts.html">Contact</a></li>
-           </nav>
-        </header>
-       <div class="main">
-           <h1>Contact me!</h1>
-       </div>
-   </div>
+    <div class ="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="./img/578211-gettyimages-542930526.webp" alt="logo">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="search"><img src="./img/search--v2.png" alt=""><input type="text" placeholder="search"></div>
+         </header>
+         <div class="fict-header"></div>
+         <main class="main">
+             <h1>Contact Page!</h1>
+             <form class="form" action="/" name ="contacts">
+                <p class="form-field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p class="form-field">
+                    <label for="agree">I agree</label>
+                    <input type="checkbox" name="agree" id="agree">
+                </p>
+                <p class="form-field">
+                    <label for="select">Select</label>
+                    <select>
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3" selected>three</option>
+                    </select>
+                </p>
+                <p class="form-field">
+                        <label for="select">Text</label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+                    </p>
+             </form>
+         </main>
+         <footer class="footer"> 
+             <p>made by me &copy;</p>
+         </footer>
+    </div>
 </body>
 </html>
