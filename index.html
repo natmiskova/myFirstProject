@@ -16,21 +16,35 @@
            <nav class="navigation">
                <ul>
                    <li class="active"><a href="index.html">Home</a></li>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="index.html">Home</a></li>
+                   <li><a href="contacts.html">Contacts</a></li>                 
                </ul>
            </nav>
            <div class="search"><img src="./img/search--v2.png" alt=""><input type="text" placeholder="search"></div>
         </header>
-        <div class="fict-header"></div>
+        <div class="fict-header" id="up"></div>
         <main class="main">
-            <div class="text-shadow">test1</div>
+            <div class="text-shadow">Main Page</div>
+            <a href="#modal" class="open_modal">Open modal</a>
         </main>
         <footer class="footer"> 
             <p>made by me &copy;</p>
         </footer>
+        <div class="modal"id="modal"> 
+            <div class="modal_header">
+                <span class="modal_title">Modal Window</span>
+                <a href="#close" class="modal_close">X</a>
+            </div>
+            <div class="modal_content">
+                <p>Lorem </br>ipsum</br>, dolor</br> sit</br> amet </br>conse</br>ctetur</br> adipisicing elit.</br> Eum aut, </br>eius sit </br> similique </br>sed</br> laboriosam.Lorem </br>ipsum</br>, dolor</br> sit</br> amet </br>conse</br>ctetur</br>Lorem </br>ipsum</br>, dolor</br> sit</br> amet </br>conse</br>ctetur</br></p>
+            </div>
+            <div class="modal_footer">
+                <a href="#ok" class="modal__button modal__button--success">OK</a>
+                <a href="#cancel" class="modal__button modal__button--danger">Cancel</a>
+            </div>
+            
+        </div>
+
+        <a href="#up" class="up-button">Вверх</a>
    </div>
 </body>
 </html>
