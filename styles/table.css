@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}           
+
+td, th {
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+td:first-child, th:first-child{
+    min-width: 50px;
+    max-width: 50px;
+}
+
+td{
+    font-weight: normal;
+}
